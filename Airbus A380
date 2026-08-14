@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbus A380</title>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <h1> Welkom op mijn website!</h1>
+        <p>De Airbus A380 is de grootste passagiersvliegtuig ter wereld.</p>
+
+    <link rel="stylesheet" href="style.css">
+
+    <img src="images/airbus-a380.jpg" alt="Airbus A380">
+
+    <button onclick="Welkom()">Klik hier</button>
+
+    <script src="script.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2f;
+            text-align: center;
+            padding: 50px;
+        }
+    </style>
+
+    h1 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    img {
+        width: 400px;
+        border-radius: 20px;
+    }
+
+    function Welkom() {
+        alert("Welkom op mijn website!");
+    }
+</body>
+</html>
